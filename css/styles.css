@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* global */
+body{
+    background: #fafafa;
+}
+a{
+    text-decoration: none !important;
+}
+h1.heading{
+    background-color: black;
+    padding: 1.5rem 1rem;
+    font-weight: bold;
+    font-size: 2.5rem !important;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    font-size: 1.5rem !important;
+}
+.heading-top{
+    font-size: 3rem !important;
+}
+.heading-top2{
+    font-size: 3.5rem !important;
+    font-weight: 600;
+}
+h6{
+    font-size: 1.4rem !important;
+    font-weight: 400 !important;
+    padding-bottom: 1rem;
+}
+i{
+    font-size: 2rem;
+}
+/* nav */
+.right-btn a{
+ color: #000;
+ 
+}
+.right-btn h4{
+    background: yellow;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+}
+
+/* hero section */
+
+ .hero-section {
+    padding: 3rem 0;
+ }
+
+ /* section 3 */
+ .section-3 .row{
+  padding: 6rem 0;
+ }
+ .section-3 .section3-img1{
+    padding-bottom: 1.5rem;
+ }
+ /* section 4 */
+ .section-4 .row{
+     padding: 5rem 0;
+ }
+ .section-5 .row{
+    padding: 3rem 0;
+ }
+ /* section 6 */
+ .section-6 .row{
+    padding: 5rem 0;
+ }
+  /* section 7 */
+  .section-7 .row{
+    padding: 5rem 0;
+ }
+   /* section 8 */
+   .section-8 .row{
+    padding: 5rem 0;
+   }
+   .section-8 .col-md-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   }
+   .section-8 h1{
+    font-size: 2.5rem;
+    padding: 1rem 0;
+   }
+   /* footer */
+footer ul li a{
+    color: #fafafa;
+    padding: .5rem 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .section-3 .heading{
+        font-size: 2rem !important;
+    }
+    .section-4 .heading{
+        font-size: 2rem !important;
+    }
+    .section-5 .heading{
+        font-size: 2rem !important;
+    }
+    .section-6 .heading{
+        font-size: 2rem !important;
+    }
+    .section-7 .heading{
+        font-size: 2rem !important;
+    }
+    .section-8 .heading{
+        font-size: 2rem !important;
+    }
+}
